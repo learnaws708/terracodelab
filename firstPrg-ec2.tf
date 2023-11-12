@@ -1,7 +1,5 @@
 
 provider "aws"{
-access_key="AKIAXDD4SEQRXAIQYYXM"
-secret_key="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"
 region="us-west-2"
 }
 resource "aws_instance" "ourfirst"{
